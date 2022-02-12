@@ -1,0 +1,47 @@
+﻿
+:root {
+    --ff-primary: 'Roboto Condensed', sans-serif;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow-x:hidden;
+}
+
+h1 {
+    font-family: var(--ff-primary);
+    font-size: 3.5rem;
+    margin-top: -10px;
+    animation-name: h1;
+    animation-duration: 2s;
+}
+
+svg {
+    margin-top: 300px;
+    animation-name: svg;
+    animation-duration: 3s;
+}
+
+
+@keyframes h1 {
+    from {
+        opacity:0%
+    }
+
+    to {
+        opacity:100%
+    }
+}
+
+
+@keyframes svg {
+    from {
+        width:0px;
+    }
+    to {
+        width:350px;
+    }
+}
